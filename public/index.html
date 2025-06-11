@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Story Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://js.puter.com/v2/"></script>
+</head>
+<body>
+  <h1>AI Story Generator</h1>
+
+  <label for="character">Main Character Name</label>
+  <input type="text" id="character" placeholder="e.g., Alex" />
+
+  <label for="setting">Setting</label>
+  <input type="text" id="setting" placeholder="e.g., forest" />
+
+  <label for="genre">Genre</label>
+  <select id="genre">
+    <option>Fantasy</option>
+    <option>Science Fiction</option>
+    <option>Mystery</option>
+    <option>Adventure</option>
+    <option>Horror</option>
+    <option>Romance</option>
+  </select>
+
+  <button onclick="generateStory()">Generate Story</button>
+
+  <div id="story"></div>
+  <div id="error" class="error" style="display: none;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

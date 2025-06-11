@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin: 1rem 0 0.3rem;
+  font-weight: bold;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+#error {
+  background-color: #f8f8f8;
+  border-left: 4px solid red;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  color: #333;
+}
+
+#story {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  white-space: pre-wrap;
+}
