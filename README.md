@@ -15,3 +15,10 @@ An interactive web app that generates short AI-powered stories based on user inp
 
 ## 📁 Project Structure
 
+## 🚀 Setup & Run Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/ai-story-generator.git
+cd ai-story-generator
